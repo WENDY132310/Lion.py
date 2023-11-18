@@ -1,0 +1,36 @@
+/*
+Theme Name: eLearning
+Masteriyo styles override
+*/
+.mto-account-sidebar .chakra-avatar {
+	width: calc(var(--chakra-sizes-10) + 8px);
+	height: calc(var(--chakra-sizes-10) + 8px);
+}
+
+.mto-account-sidebar h5,
+.mto-account-sidebar .chakra-link p {
+	font-size: var(--chakra-fontSizes-md);
+}
+
+.mto-account-sidebar .chakra-link > div {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.mto-account-sidebar .chakra-link svg {
+	width: var(--chakra-sizes-5);
+	height: auto;
+}
+
+.mto-dashboard-courses-stats h2,
+.mto-continue-course .chakra-image + div > p {
+	font-size: var(--chakra-fontSizes-lg);
+}
+
+.mto-continue-course .chakra-image + div > div > span,
+.mto-continue-course .chakra-text,
+.mto-enrolled-courses-list .chakra-text,
+.mto-orders-wrapper .chakra-text {
+	font-size: var(--chakra-fontSizes-sm);
+}

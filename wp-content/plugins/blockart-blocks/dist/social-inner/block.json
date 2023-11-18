@@ -1,0 +1,90 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "blockart/social-inner",
+  "title": "Social Icon",
+  "description": "Share your content through different platforms.",
+  "keywords": [
+    "social share",
+    "social"
+  ],
+  "category": "blockart",
+  "textdomain": "blockart",
+  "parent": [
+    "blockart/socials"
+  ],
+  "supports": {
+    "className": false,
+    "customClassName": false
+  },
+  "example": {
+    "attributes": {}
+  },
+  "attributes": {
+    "clientId": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "default": "facebook"
+    },
+    "iconType": {
+      "type": "object",
+      "default": "svg",
+      "enum": [
+        "svg",
+        "image"
+      ]
+    },
+    "icon": {
+      "type": "string",
+      "default": "facebook"
+    },
+    "image": {
+      "type": "object"
+    },
+    "icon_color": {
+      "type": "string",
+      "style": [
+        {
+          "selector": ".blockart-socials {{WRAPPER}} .blockart-social-link svg {fill: {{VALUE}}; }"
+        }
+      ]
+    },
+    "icon_hoverColor": {
+      "type": "string",
+      "style": [
+        {
+          "selector": ".blockart-socials {{WRAPPER}} .blockart-social-link:hover svg {fill: {{VALUE}}; }"
+        }
+      ]
+    },
+    "icon_bg_color": {
+      "type": "object",
+      "default": {
+        "background": 1
+      },
+      "style": [
+        {
+          "selector": ".blockart-socials .blockart-social-inner{{WRAPPER}}"
+        }
+      ]
+    },
+    "icon_bg_hoverColor": {
+      "type": "object",
+      "default": {
+        "background": 1
+      },
+      "style": [
+        {
+          "selector": ".blockart-socials .blockart-social-inner{{WRAPPER}}:hover"
+        }
+      ]
+    },
+    "media": {
+      "type": "string"
+    }
+  },
+  "style": "blockart-blocks",
+  "editorScript": "blockart-blocks",
+  "editorStyle": "blockart-blocks-editor"
+}

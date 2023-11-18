@@ -1,0 +1,1703 @@
+# Translation of Themes - eLearning in Spanish (Colombia)
+# This file is distributed under the same license as the Themes - eLearning package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-02-06 19:10:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: es_CO\n"
+"Project-Id-Version: Themes - eLearning\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "eLearning is a free WordPress LMS theme powered by Masteriyo LMS. Masteriyo is a revolutionary LMS plugin based on React JS making it not just super fast but also super easy to setup. Masteriyo plugin helps to create and sell online courses with ease. eLearning theme is Gutenberg, Elementor and any other page builder ready making it perfect choice to create a visually appealing professional looking LMS site. eLearning is light weight, SEO optimized, AMP ready, RTL ready, major browsers compatible, fully responsive, translation ready and backed up by our awesome support team. It has tons of customizer options related to header, menu, blog page, single post page, footer, layouts, typography, designs and many more.  It comes with pre-built Elementor and Gutenberg demos that you can import with few clicks via the recommended demo importer plugin. Checkout the live demo at https://demo.masteriyo.com/elearning."
+msgstr "eLearning es un tema LMS gratuito para WordPress, impulsado por Masteriyo LMS. Masteriyo es un revolucionario plugin LMS basado en React JS que lo hace no solo súper rápido, sino también súper fácil de configurar. El plugin Masteriyo ayuda a crear y vender cursos online con facilidad. El tema eLearning está preparado para Gutenberg, Elementor y cualquier otro maquetador de páginas, lo que lo convierte en la elección perfecta para crear un sitio LMS visualmente atractivo y de aspecto profesional. eLearning es ligero, está optimizado para SEO, está preparado para AMP y RTL, es compatible con los principales navegadores, es totalmente adaptable, está listo para traducir y está respaldado por nuestro increíble equipo de soporte. Tiene toneladas de opciones de personalización relacionadas con la cabecera, el menú, la página del blog, la página de entrada individual, el pie de página, las estructuras, la tipografía, los diseños y muchos más. Viene con demostraciones prefabricadas para Elementor y Gutenberg que puedes importar con unos pocos clics a través del plugin importador demostraciones recomendado. Echa un vistazo a la demostración en vivo en https://demo.masteriyo.com/elearning."
+
+#. Theme Name of the theme
+#: inc/class-elearning-utils.php:170
+#, gp-priority: high
+msgid "eLearning"
+msgstr "eLearning"
+
+#: inc/customizer/options/global/class-elearning-customize-heading-colors-option.php:35
+msgid "Heading Color ( H1 - H6 )"
+msgstr "Color del encabezado (H1 - H6)"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:57
+msgid "Heading Colors"
+msgstr "Color del encabezado"
+
+#: inc/compatibility/quick-demo-import/class-elearning-quick-demo-import.php:65
+msgid "Elementor"
+msgstr "Elementor"
+
+#: inc/compatibility/quick-demo-import/class-elearning-quick-demo-import.php:62
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/compatibility/quick-demo-import/class-elearning-quick-demo-import.php:61
+msgid "Education"
+msgstr "Educación"
+
+#: template-parts/entry/entry-content.php:48
+msgid "Pages:"
+msgstr "Páginas:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/entry/entry-content.php:32
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Seguir leyendo<span class=\"screen-reader-text\"> «%s»</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content/content-page.php:29
+#: template-parts/entry/entry-meta.php:58
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content/content-none.php:48
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no hemos podido encontrar lo que estás buscando. Quizá pueda ayudarte una búsqueda."
+
+#: template-parts/content/content-none.php:41
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo siento, pero no hay nada que coincida con tus términos de búsqueda. Por favor, inténtalo de nuevo con algunas palabras clave diferentes."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content/content-none.php:28
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: template-parts/content/content-none.php:17
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: template-parts/content/content-404.php:22
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que no se ha encontrado nada en esta ubicación. ¿Quizá podrías intentar una búsqueda o usar uno de los enlaces que se muestran a continuación?"
+
+#: template-parts/content/content-404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se ha podido encontrar esa página."
+
+#: sidebar.php:29
+msgid "Click here to add widgets for this area"
+msgstr "Haz clic aquí para añadir widgets a esta área"
+
+#. Template Name of the theme
+msgid "Page Builder"
+msgstr "Maquetador de páginas"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:135
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:130
+msgid "Tagged %1$s"
+msgstr "Etiquetada como %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:105
+msgid "No Comments<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Sin comentarios<span class=\"screen-reader-text\"> en %s</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:82
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:77
+msgid "Posted in %1$s"
+msgstr "Publicada en %1$s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:57
+msgctxt "post author"
+msgid "By %s"
+msgstr "Por %s"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:23
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicada el %s"
+
+#: inc/template-functions.php:226
+msgid "Search Results"
+msgstr "Resultados de la búsqueda"
+
+#: inc/template-functions.php:224
+msgid "Page Not Found"
+msgstr "Página no encontrada"
+
+#. translators: %s: year.
+#: inc/template-functions.php:217
+msgid "Year: %s"
+msgstr "Año: %s"
+
+#. translators: %s: month
+#: inc/template-functions.php:213
+msgid "Month: %s"
+msgstr "Mes: %s"
+
+#. translators: %s: day
+#: inc/template-functions.php:209
+msgid "Day: %s"
+msgstr "Día: %s"
+
+#. translators: %s: author.
+#: inc/template-functions.php:195
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: inc/structure/footer.php:80
+msgid "Scroll to top"
+msgstr "Scroll hacia arriba"
+
+#: inc/meta-boxes/class-elearning-meta-box.php:40
+msgid "Page Settings"
+msgstr "Ajustes de la página"
+
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:415
+msgid "Enable Page Header"
+msgstr "Activar la cabecera de la página"
+
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:356
+msgid "Menu Item Active Color"
+msgstr "Color del elemento activo del menú"
+
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:346
+msgid "Menu Item Hover Color"
+msgstr "Color del elemento del menú al pasar el cursor"
+
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:334
+msgid "Menu Item Color"
+msgstr "Color del elemento del menú"
+
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:263
+msgid "Remove Logo"
+msgstr "Eliminar el logotipo"
+
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:246
+msgid "Logo"
+msgstr "Logotipo"
+
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:231
+msgid "Disable"
+msgstr "Desactivar"
+
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:172
+msgid "Remove content margin"
+msgstr "Eliminar el margen del contenido"
+
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:82
+msgid "General"
+msgstr "General"
+
+#: inc/customizer/override-defaults.php:82
+msgid "Header Video URL"
+msgstr "URL del vídeo de la cabecera"
+
+#: inc/customizer/options/header/class-elearning-customize-transparent-header-option.php:61
+msgid "Enable on Front Page (Latest Posts)"
+msgstr "Activar en la página de inicio (últimas entradas)"
+
+#: inc/customizer/options/header/class-elearning-customize-transparent-header-option.php:46
+msgid "Enable on 404, Search and Archive Pages"
+msgstr "Activar en las páginas 404, de búsqueda y de archivo"
+
+#: inc/customizer/options/header/class-elearning-customize-transparent-header-option.php:36
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:218
+msgid "Enable Transparent Header"
+msgstr "Activar la cabecera transparente"
+
+#: inc/customizer/options/header/class-elearning-customize-site-identity-option.php:138
+msgid "Site Tagline"
+msgstr "Descripción corta del sitio"
+
+#: inc/customizer/options/header/class-elearning-customize-site-identity-option.php:63
+msgid "Site Title"
+msgstr "Título del sitio"
+
+#: inc/customizer/options/header/class-elearning-customize-site-identity-option.php:35
+msgid "Upload 2X times the size of your current logo. Eg: If your current logo size is 120*60 then upload 240*120 sized logo."
+msgstr "Sube 2 veces el tamaño de tu logotipo actual. Ejemplo: Si el tamaño actual de tu logotipo es de 120*60, sube un logotipo de tamaño 240*120."
+
+#: inc/customizer/options/header/class-elearning-customize-site-identity-option.php:34
+msgid "Retina Logo"
+msgstr "Logotipo Retina"
+
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-option.php:47
+msgid "Keep Menu Items on One Line"
+msgstr "Mantener los elementos del menú en una línea"
+
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-option.php:37
+msgid "Disable Primary Menu"
+msgstr "Desactivar el menú principal"
+
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:128
+msgid "Active"
+msgstr "Activo"
+
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:72
+msgid "Menu Item"
+msgstr "Elemento del menú"
+
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:41
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:395
+msgid "Right Border"
+msgstr "Borde derecho"
+
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:40
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:387
+msgid "Left Border"
+msgstr "Borde izquierdo"
+
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:39
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:379
+msgid "Underline Border"
+msgstr "Borde subrayado"
+
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:36
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:366
+msgid "Active Menu Item Style"
+msgstr "Estilo del elemento activo del menú"
+
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-dropdown-item-option.php:51
+msgid "Dropdown"
+msgstr "Desplegable"
+
+#: inc/customizer/options/header/class-elearning-customize-mobile-menu-option.php:49
+msgid "Mobile Menu"
+msgstr "Menú móvil"
+
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:199
+msgid "Select a Menu for Right Content"
+msgstr "Seleccionar un menú para el contenido derecho"
+
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:174
+msgid "Text/HTML for Right Content"
+msgstr "Texto/HTML para el contenido derecho"
+
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:34
+msgid "Enable Header Top Bar"
+msgstr "Activar la barra superior de la cabecera"
+
+#: inc/customizer/options/header/class-elearning-customize-header-main-option.php:112
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-option.php:61
+msgid "Border Bottom"
+msgstr "Border inferior"
+
+#: inc/customizer/options/header/class-elearning-customize-header-main-option.php:77
+msgid "Enable Search Icon"
+msgstr "Activar el icono de búsqueda"
+
+#: inc/customizer/options/header/class-elearning-customize-header-main-option.php:67
+msgid "Search"
+msgstr "Buscar"
+
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:58
+msgid "Open link in a new tab"
+msgstr "Abrir el enlace en una nueva pestaña"
+
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:49
+msgid "https://example.com"
+msgstr "https://ejemplo.com"
+
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:45
+msgid "Button Link"
+msgstr "Enlace del botón"
+
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:35
+msgid "Button Text"
+msgstr "Texto del botón"
+
+#: inc/customizer/options/global/class-elearning-customize-typography-option.php:115
+msgid "Heading"
+msgstr "Encabezado"
+
+#: inc/customizer/options/global/class-elearning-customize-typography-option.php:36
+msgid "Body"
+msgstr "Cuerpo"
+
+#: inc/customizer/options/global/class-elearning-customize-sidebar-layout-option.php:99
+msgid "Page"
+msgstr "Página"
+
+#: inc/customizer/options/global/class-elearning-customize-headings-typography-option.php:420
+msgid "H6"
+msgstr "H6"
+
+#: inc/customizer/options/global/class-elearning-customize-headings-typography-option.php:343
+msgid "H5"
+msgstr "H5"
+
+#: inc/customizer/options/global/class-elearning-customize-headings-typography-option.php:266
+msgid "H4"
+msgstr "H4"
+
+#: inc/customizer/options/global/class-elearning-customize-headings-typography-option.php:189
+msgid "H3"
+msgstr "H3"
+
+#: inc/customizer/options/global/class-elearning-customize-headings-typography-option.php:112
+msgid "H2"
+msgstr "H2"
+
+#: inc/customizer/options/global/class-elearning-customize-headings-typography-option.php:35
+msgid "H1"
+msgstr "H1"
+
+#: inc/customizer/options/global/class-elearning-customize-container-option.php:97
+msgid "Side Width"
+msgstr "Anchura lateral"
+
+#: inc/customizer/options/global/class-elearning-customize-container-option.php:80
+msgid "Content Width"
+msgstr "Ancho del contenido"
+
+#: inc/customizer/options/global/class-elearning-customize-container-option.php:63
+msgid "Container Width"
+msgstr "Ancho del contenedor"
+
+#: inc/customizer/options/global/class-elearning-customize-container-option.php:51
+msgid "Separate"
+msgstr "Separar"
+
+#: inc/customizer/options/global/class-elearning-customize-container-option.php:47
+msgid "Boxed"
+msgstr "En cajas"
+
+#: inc/customizer/options/global/class-elearning-customize-container-option.php:43
+msgid "Wide"
+msgstr "Amplio"
+
+#: inc/customizer/options/global/class-elearning-customize-container-option.php:37
+msgid "Container Style"
+msgstr "Estilo del contenedor"
+
+#: inc/customizer/options/global/class-elearning-customize-button-option.php:143
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:180
+msgid "Roundness"
+msgstr "Redondez"
+
+#: inc/customizer/options/global/class-elearning-customize-button-option.php:132
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:169
+msgid "Border"
+msgstr "Borde"
+
+#: inc/customizer/options/global/class-elearning-customize-base-colors-option.php:56
+msgid "Border Color"
+msgstr "Color del borde"
+
+#: inc/customizer/options/global/class-elearning-customize-base-colors-option.php:46
+#: inc/customizer/options/global/class-elearning-customize-button-option.php:69
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:102
+msgid "Text Color"
+msgstr "Color del texto"
+
+#: inc/customizer/options/global/class-elearning-customize-base-colors-option.php:36
+msgid "Primary Color"
+msgstr "Color principal"
+
+#: inc/customizer/options/global/class-elearning-customize-background-option.php:61
+msgid "Outside Container"
+msgstr "Fuera del contenedor"
+
+#: inc/customizer/options/global/class-elearning-customize-background-option.php:35
+msgid "Inside Container"
+msgstr "Dentro del contenedor"
+
+#: inc/customizer/options/footer/class-elearning-customize-scroll-to-top-option.php:109
+msgid "Icon"
+msgstr "Icono"
+
+#: inc/customizer/options/footer/class-elearning-customize-scroll-to-top-option.php:36
+msgid "Enable Scroll to Top"
+msgstr "Activar el scroll hacia arriba"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:329
+msgid "List Item Border Bottom"
+msgstr "Borde inferior de la lista de elementos"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:230
+msgid "Widget Link Item"
+msgstr "Enlace del elemento del widget"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:198
+msgid "Widget Content"
+msgstr "Contenido del widget"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:148
+msgid "Widget Title"
+msgstr "Título del widget"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:61
+msgid "Footer Widgets Style"
+msgstr "Estilo de los widgets del pie de página"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:46
+msgid "Hide Widget Title"
+msgstr "Ocultar el título del widget"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:36
+msgid "Enable Footer Widgets"
+msgstr "Activar los widgets del pie de página"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:346
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:315
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:368
+#: inc/customizer/options/header/class-elearning-customize-header-main-option.php:139
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-option.php:98
+msgid "Color"
+msgstr "Color"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:322
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:277
+msgid "Border Top"
+msgstr "Border superior"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:153
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:133
+msgid "Right Content"
+msgstr "Contenido derecho"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:130
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:207
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:109
+msgid "Select a Menu for Left Content"
+msgstr "Seleccionar un menú para el contenido izquierdo"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:100
+msgid "Docs Link"
+msgstr "Enlace a la documentación"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:98
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:184
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:84
+msgid "Text/HTML for Left Content"
+msgstr "Texto/HTML para el contenido izquierdo"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:78
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:171
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:63
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:153
+msgid "Widget"
+msgstr "Widget"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:76
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:169
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:61
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:151
+msgid "Text/HTML"
+msgstr "Texto/HTML"
+
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:60
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:43
+msgid "Left Content"
+msgstr "Contenido izquierdo"
+
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:55
+msgid "Meta Tags"
+msgstr "Etiquetas meta"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:333
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:311
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:264
+#: inc/customizer/options/footer/class-elearning-customize-scroll-to-top-option.php:93
+#: inc/customizer/options/footer/class-elearning-customize-scroll-to-top-option.php:142
+#: inc/customizer/options/global/class-elearning-customize-button-option.php:91
+#: inc/customizer/options/global/class-elearning-customize-button-option.php:123
+#: inc/customizer/options/global/class-elearning-customize-link-colors-option.php:55
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:125
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:159
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:109
+msgid "Hover"
+msgstr "Al pasar el cursor"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:300
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:287
+msgid "Link"
+msgstr "Enlace"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:269
+msgid "Separator"
+msgstr "Separador"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:239
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:263
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:237
+msgid "Text"
+msgstr "Texto"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:219
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:357
+msgid "Post/Page Title"
+msgstr "Título de la entrada/página"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:173
+#: inc/customizer/options/global/class-elearning-customize-button-option.php:50
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:82
+msgid "Padding"
+msgstr "Relleno"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:158
+#: inc/customizer/options/global/class-elearning-customize-button-option.php:35
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:67
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:138
+msgid "Font Size"
+msgstr "Tamaño de la fuente"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:127
+msgid "Enable Breadcrumbs"
+msgstr "Activar las migas de pan"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:117
+msgid "Breadcrumbs"
+msgstr "Migas de pan"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:84
+msgid "Alignment"
+msgstr "Alineación"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:69
+msgid "Div"
+msgstr "Div"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:68
+msgid "Paragraph"
+msgstr "Párrafo"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:67
+msgid "Span"
+msgstr "Span"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:66
+msgid "Heading 6"
+msgstr "Encabezado 6"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:65
+msgid "Heading 5"
+msgstr "Encabezado 5"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:64
+msgid "Heading 4"
+msgstr "Encabezado 4"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:63
+msgid "Heading 3"
+msgstr "Encabezado 3"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:62
+msgid "Heading 2"
+msgstr "Encabezado 2"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:61
+msgid "Heading 1"
+msgstr "Encabezado 1"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:58
+msgid "Markup"
+msgstr "Marcado"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:48
+msgid "Content Area"
+msgstr "Área del contenido"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:44
+msgid "Position"
+msgstr "Posición"
+
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:34
+msgid "Page Title"
+msgstr "Título de la página"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-meta-option.php:36
+msgid "Meta Style"
+msgstr "Estilo de meta"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:190
+msgid "Blog/Archive Post Title"
+msgstr "Título de la entrada del blog/archivo"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:120
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:227
+msgid "Enable"
+msgstr "Activar"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:105
+#: template-parts/entry/entry-footer.php:18
+msgid "Read More"
+msgstr "Leer más"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:95
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:88
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:94
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:87
+msgid "Date"
+msgstr "Fecha"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:93
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:86
+msgid "Author"
+msgstr "Autor"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:92
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:85
+msgid "Categories"
+msgstr "Categorías"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:91
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:84
+msgid "Comments"
+msgstr "Comentarios"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:87
+msgid "Meta Tags Order"
+msgstr "Orden de las etiquetas meta"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:68
+#: inc/customizer/options/content/class-elearning-customize-blog-sidebar-option.php:43
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:54
+msgid "Title"
+msgstr "Título"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:67
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:53
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:64
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:88
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:36
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:66
+msgid "Drag & Drop items to re-arrange the order"
+msgstr "Arrastra y suelta los elementos para reordenar"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:63
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:35
+msgid "Post Elements"
+msgstr "Elementos de la entrada"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:48
+msgid "Full Content"
+msgstr "Contenido completo"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:47
+msgid "Excerpt"
+msgstr "Extracto"
+
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:34
+msgid "Post"
+msgstr "Entrada"
+
+#: inc/customizer/core/extend-customizer/class-elearning-wp-customize-section.php:73
+msgid "Customizing"
+msgstr "Personalizando"
+
+#. Translators: 1: Panel Title.
+#: inc/customizer/core/extend-customizer/class-elearning-wp-customize-section.php:69
+msgid "Customizing &#9656; %s"
+msgstr "Personalizando &#9656; %s"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:649
+msgid "Line Through"
+msgstr "Tachado"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:646
+msgid "Overline"
+msgstr "Sobrerayado"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:643
+msgid "Underline"
+msgstr "Subrayado"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:635
+msgid "Decoration"
+msgstr "Decoración"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:621
+msgid "Lowercase"
+msgstr "Mínusculas"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:618
+msgid "Uppercase"
+msgstr "Mayúsculas"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:615
+msgid "Capitalize"
+msgstr "Primera en mayúscula"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:607
+msgid "Transform"
+msgstr "Transformar"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:599
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:627
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:655
+msgid "Inherit"
+msgstr "Heredada"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:596
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:624
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:652
+msgid "Initial"
+msgstr "Inicial"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:593
+msgid "Oblique"
+msgstr "Oblicua"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:590
+msgid "Italic"
+msgstr "Cursiva"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:587
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:316
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:298
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:247
+#: inc/customizer/options/footer/class-elearning-customize-scroll-to-top-option.php:76
+#: inc/customizer/options/footer/class-elearning-customize-scroll-to-top-option.php:126
+#: inc/customizer/options/global/class-elearning-customize-button-option.php:80
+#: inc/customizer/options/global/class-elearning-customize-button-option.php:112
+#: inc/customizer/options/global/class-elearning-customize-link-colors-option.php:45
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:113
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:147
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:90
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:582
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:135
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:35
+#: inc/customizer/options/header/class-elearning-customize-header-main-option.php:35
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:278
+msgid "Style"
+msgstr "Estilo"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:490
+msgid "Letter Spacing"
+msgstr "Espacio entre letras"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:398
+msgid "Line Height"
+msgstr "Alto de línea"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:306
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:334
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:293
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:345
+#: inc/customizer/options/header/class-elearning-customize-header-main-option.php:123
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-option.php:77
+msgid "Size"
+msgstr "Tamaño"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:291
+msgid "Subset(s)"
+msgstr "Subconjunto(s)"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:282
+msgid "Weight"
+msgstr "Grosor"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:274
+msgid "Family"
+msgstr "Familia"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:58
+msgid "Custom Fonts"
+msgstr "Fuentes personalizadas"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:51
+msgid "Google Fonts"
+msgstr "Fuentes de Google"
+
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:50
+msgid "Standard Fonts"
+msgstr "Fuentes estándar"
+
+#: inc/customizer/core/custom-controls/slider/class-elearning-slider-control.php:110
+msgid "Back to default"
+msgstr "Volver a los valores por defecto"
+
+#. Translators: %1$s: Anchor tag open, %2$s: Customizer section name %3$s:
+#. Anchor tag close
+#: inc/customizer/core/custom-controls/navigate/class-elearning-navigate-control.php:62
+msgid "%1$s Click here to edit %2$s features %3$s"
+msgstr "%1$s Haz clic aquí para editar las características de %2$s %3$s"
+
+#: inc/customizer/core/custom-controls/color/class-elearning-color-control.php:52
+msgid "Color value"
+msgstr "Valor del color"
+
+#: inc/customizer/core/custom-controls/color/class-elearning-color-control.php:51
+msgid "Select Color"
+msgstr "Seleccionar el color"
+
+#: inc/customizer/core/custom-controls/color/class-elearning-color-control.php:50
+msgid "Select default color"
+msgstr "Seleccionar el color por defecto"
+
+#: inc/customizer/core/custom-controls/color/class-elearning-color-control.php:49
+#: inc/customizer/options/global/class-elearning-customize-sidebar-layout-option.php:63
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:188
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:223
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:370
+msgid "Default"
+msgstr "Por defecto"
+
+#: inc/customizer/core/custom-controls/color/class-elearning-color-control.php:48
+msgid "Clear color"
+msgstr "Vaciar el color"
+
+#: inc/customizer/core/custom-controls/color/class-elearning-color-control.php:47
+msgid "Clear"
+msgstr "Vaciar"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:205
+msgid "Fixed"
+msgstr "Fijo"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:202
+msgid "Scroll"
+msgstr "Scroll"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:198
+msgid "Background Attachment"
+msgstr "Adjunto del fondo"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:193
+msgid "Auto"
+msgstr "Automático"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:190
+msgid "Contain"
+msgstr "Contener"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:187
+msgid "Cover"
+msgstr "Cubrir"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:183
+msgid "Background Size"
+msgstr "Tamaño del fondo"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:178
+msgid "Center Bottom"
+msgstr "Centro inferior"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:175
+msgid "Center Center"
+msgstr "Centro centro"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:172
+msgid "Center Top"
+msgstr "Centro superior"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:169
+msgid "Right Bottom"
+msgstr "Derecha inferior"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:166
+msgid "Right Center"
+msgstr "Derecha centro"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:163
+msgid "Right Top"
+msgstr "Derecha superior"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:160
+msgid "Left Bottom"
+msgstr "Izquierda inferior"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:157
+msgid "Left Center"
+msgstr "Izquierda centro"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:154
+msgid "Left Top"
+msgstr "Izquierda superior"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:150
+msgid "Background Position"
+msgstr "Posición del fondo"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:145
+msgid "Repeat Vertically"
+msgstr "Repetir verticalmente"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:142
+msgid "Repeat Horizontally"
+msgstr "Repetir horizontalmente"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:139
+msgid "Repeat All"
+msgstr "Repetir todo"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:136
+msgid "No Repeat"
+msgstr "No repetir"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:132
+msgid "Background Repeat"
+msgstr "Repetición del fondo"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:125
+msgid "Select Image"
+msgstr "Seleccionar una imagen"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:118
+msgid "Remove"
+msgstr "Eliminar"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:111
+msgid "No Image Selected"
+msgstr "No se ha seleccionado ninguna imagen"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:105
+msgid "Background Image"
+msgstr "Imagen del fondo"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:94
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:136
+msgid "Background Color"
+msgstr "Color del fondo"
+
+#: inc/customizer/core/custom-controls/background/class-elearning-background-control.php:42
+msgid "No file selected"
+msgstr "No se ha seleccionado ningún archivo"
+
+#: inc/customizer/core/class-elearning-fonts.php:228
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+#: inc/customizer/core/class-elearning-fonts.php:227
+msgid "Tibetan"
+msgstr "Tibetano"
+
+#: inc/customizer/core/class-elearning-fonts.php:226
+msgid "Thai"
+msgstr "Tailandés"
+
+#: inc/customizer/core/class-elearning-fonts.php:225
+msgid "Telugu"
+msgstr "Télugu"
+
+#: inc/customizer/core/class-elearning-fonts.php:224
+msgid "Tamil"
+msgstr "Tamil"
+
+#: inc/customizer/core/class-elearning-fonts.php:223
+msgid "Sinhala"
+msgstr "Cingalés"
+
+#: inc/customizer/core/class-elearning-fonts.php:222
+msgid "Oriya"
+msgstr "Oriya"
+
+#: inc/customizer/core/class-elearning-fonts.php:221
+msgid "Myanmar"
+msgstr "Birmano"
+
+#: inc/customizer/core/class-elearning-fonts.php:220
+msgid "Malayalam"
+msgstr "Malabar"
+
+#: inc/customizer/core/class-elearning-fonts.php:219
+msgid "Latin Extended"
+msgstr "Latín ampliado"
+
+#: inc/customizer/core/class-elearning-fonts.php:218
+msgid "Latin"
+msgstr "Latín"
+
+#: inc/customizer/core/class-elearning-fonts.php:217
+msgid "Korean"
+msgstr "Coreano"
+
+#: inc/customizer/core/class-elearning-fonts.php:216
+msgid "Khmer"
+msgstr "Camboyano"
+
+#: inc/customizer/core/class-elearning-fonts.php:215
+msgid "Kannada"
+msgstr "Canarés"
+
+#: inc/customizer/core/class-elearning-fonts.php:214
+msgid "Japanese"
+msgstr "Japonés"
+
+#: inc/customizer/core/class-elearning-fonts.php:213
+msgid "Hebrew"
+msgstr "Hebreo"
+
+#: inc/customizer/core/class-elearning-fonts.php:212
+msgid "Gurmukhi"
+msgstr "Gurmují"
+
+#: inc/customizer/core/class-elearning-fonts.php:211
+msgid "Gujarati"
+msgstr "Guyaratí"
+
+#: inc/customizer/core/class-elearning-fonts.php:210
+msgid "Greek Extended"
+msgstr "Griego ampliado"
+
+#: inc/customizer/core/class-elearning-fonts.php:209
+msgid "Greek"
+msgstr "Griego"
+
+#: inc/customizer/core/class-elearning-fonts.php:208
+msgid "Devanagari"
+msgstr "Devanagari"
+
+#: inc/customizer/core/class-elearning-fonts.php:207
+msgid "Cyrillic Extended"
+msgstr "Cirílico ampliado"
+
+#: inc/customizer/core/class-elearning-fonts.php:206
+msgid "Cyrillic"
+msgstr "Cirílico"
+
+#: inc/customizer/core/class-elearning-fonts.php:205
+msgid "Chinese (Traditional)"
+msgstr "Chino (Tradicional)"
+
+#: inc/customizer/core/class-elearning-fonts.php:204
+msgid "Chinese (Simplified)"
+msgstr "Chino (Simplificado)"
+
+#: inc/customizer/core/class-elearning-fonts.php:203
+msgid "Chinese (Hong Kong)"
+msgstr "Chino (Hong Kong)"
+
+#: inc/customizer/core/class-elearning-fonts.php:202
+msgid "Bengali"
+msgstr "Bengalí"
+
+#: inc/customizer/core/class-elearning-fonts.php:201
+msgid "Arabic"
+msgstr "Árabe"
+
+#: inc/customizer/core/class-elearning-fonts.php:182
+msgid "Black 900 Italic"
+msgstr "Negrita 900 cursiva"
+
+#: inc/customizer/core/class-elearning-fonts.php:181
+msgid "Black 900"
+msgstr "Negrita 900"
+
+#: inc/customizer/core/class-elearning-fonts.php:180
+msgid "Extra-Bold 800 Italic"
+msgstr "Extra-Bold 800 Cursiva"
+
+#: inc/customizer/core/class-elearning-fonts.php:179
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: inc/customizer/core/class-elearning-fonts.php:178
+msgid "Bold 700 Italic"
+msgstr "Bold 700 Cursiva"
+
+#: inc/customizer/core/class-elearning-fonts.php:177
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: inc/customizer/core/class-elearning-fonts.php:176
+msgid "Semi-Bold 600 Italic"
+msgstr "Semi-Bold 600 Cursiva"
+
+#: inc/customizer/core/class-elearning-fonts.php:175
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: inc/customizer/core/class-elearning-fonts.php:174
+msgid "Medium 500 Italic"
+msgstr "Medium 500 Cursiva"
+
+#: inc/customizer/core/class-elearning-fonts.php:173
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: inc/customizer/core/class-elearning-fonts.php:172
+msgid "Regular 400 Italic"
+msgstr "Normal 400 cursiva"
+
+#: inc/customizer/core/class-elearning-fonts.php:171
+msgid "Regular 400"
+msgstr "Normal 400"
+
+#: inc/customizer/core/class-elearning-fonts.php:170
+msgid "Light 300 Italic"
+msgstr "Light 300 Cursiva"
+
+#: inc/customizer/core/class-elearning-fonts.php:169
+msgid "Light 300"
+msgstr "Light 300"
+
+#: inc/customizer/core/class-elearning-fonts.php:168
+msgid "Extra-Light 200 Italic"
+msgstr "Extra Light 200 Cursiva"
+
+#: inc/customizer/core/class-elearning-fonts.php:167
+msgid "Extra-Light 200"
+msgstr "Extra-Light 200"
+
+#: inc/customizer/core/class-elearning-fonts.php:166
+msgid "Thin 100 Italic"
+msgstr "Fina 100 cursiva"
+
+#: inc/customizer/core/class-elearning-fonts.php:165
+msgid "Thin 100"
+msgstr "Fina 100"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:303
+msgid "Scroll to Top"
+msgstr "Scroll hacia arriba"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:295
+msgid "Footer Bottom Bar"
+msgstr "Barra inferior del pie de página"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:287
+msgid "Footer Widgets"
+msgstr "Widgets del pie de página"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:280
+msgid "Footer"
+msgstr "Pie de página"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:272
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:182
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:264
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:69
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:65
+msgid "Meta"
+msgstr "Meta"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:256
+#: inc/customizer/options/global/class-elearning-customize-sidebar-layout-option.php:87
+msgid "Single Post"
+msgstr "Entrada individual"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:248
+#: inc/customizer/options/global/class-elearning-customize-sidebar-layout-option.php:75
+msgid "Blog/Archive"
+msgstr "Blog/Archivo"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:241
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:44
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:70
+#: inc/customizer/options/content/class-elearning-customize-blog-sidebar-option.php:120
+#: inc/customizer/options/content/class-elearning-customize-single-blog-post-option.php:56
+msgid "Content"
+msgstr "Contenido"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:233
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:47
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:97
+msgid "Page Header"
+msgstr "Cabecera de la página"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:224
+msgid "Primary Menu : Dropdown Item"
+msgstr "Menú principal: elemento del desplegable"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:215
+msgid "Primary Menu : Menu Item"
+msgstr "Menú principal: elemento del menú"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:206
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:159
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:92
+#: inc/structure/header.php:271
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:198
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:77
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:170
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:62
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:152
+msgid "Menu"
+msgstr "Menú"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:190
+msgid "Transparent Header"
+msgstr "Cabecera transparente"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:182
+msgid "Header Button"
+msgstr "Botón de la cabecera"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:174
+msgid "Header Main Area"
+msgstr "Área principal de la cabecera"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:166
+msgid "Header Top Bar"
+msgstr "Barra superior de la cabecera"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:158
+msgid "Header Media"
+msgstr "Medios de la cabecera"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:150
+msgid "Site Identity"
+msgstr "Identidad del sitio"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:143
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:87
+msgid "Header"
+msgstr "Cabecera"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:135
+msgid "Button"
+msgstr "Botón"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:126
+msgid "Headings ( H1 - H6 )"
+msgstr "Encabezados (H1 - H6)"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:117
+msgid "Base Typography"
+msgstr "Tipografía base"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:109
+#: inc/customizer/options/content/class-elearning-customize-blog-archive-option.php:176
+#: inc/customizer/options/content/class-elearning-customize-blog-sidebar-option.php:34
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:348
+#: inc/customizer/options/header/class-elearning-customize-mobile-menu-option.php:35
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-dropdown-item-option.php:37
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:145
+#: inc/customizer/options/header/class-elearning-customize-site-identity-option.php:53
+msgid "Typography"
+msgstr "Tipografía"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:100
+msgid "Sidebar Layout"
+msgstr "Diseño de la barra lateral"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:91
+msgid "Container"
+msgstr "Contenedor"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:83
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:121
+msgid "Layout"
+msgstr "Diseño"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:75
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:192
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:234
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:111
+#: inc/customizer/options/footer/class-elearning-customize-scroll-to-top-option.php:60
+#: inc/customizer/options/global/class-elearning-customize-button-option.php:101
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:267
+msgid "Background"
+msgstr "Fondo"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:66
+#: inc/customizer/options/global/class-elearning-customize-link-colors-option.php:35
+msgid "Link Colors"
+msgstr "Colores de los enlaces"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:48
+msgid "Base Colors"
+msgstr "Colores base"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:40
+#: inc/customizer/options/content/class-elearning-customize-page-header-option.php:183
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:224
+#: inc/customizer/options/footer/class-elearning-customize-footer-widget-option.php:97
+#: inc/customizer/options/footer/class-elearning-customize-scroll-to-top-option.php:45
+#: inc/customizer/options/global/class-elearning-customize-button-option.php:59
+#: inc/customizer/options/header/class-elearning-customize-header-button-option.php:92
+#: inc/customizer/options/header/class-elearning-customize-header-main-option.php:86
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:223
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:58
+#: inc/customizer/options/header/class-elearning-customize-site-identity-option.php:44
+msgid "Colors"
+msgstr "Colores"
+
+#: inc/customizer/class-elearning-customizer-register-panels-sections.php:33
+msgid "Global"
+msgstr "Global"
+
+#: inc/class-elearning-utils.php:277
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:612
+#: inc/customizer/core/custom-controls/typography/class-elearning-typography-control.php:640
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:75
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:168
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:60
+#: inc/customizer/options/header/class-elearning-customize-header-top-option.php:150
+#: inc/customizer/options/header/class-elearning-customize-primary-menu-item-option.php:38
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:371
+msgid "None"
+msgstr "Nada"
+
+#: inc/class-elearning-utils.php:176
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: 1: Current Year, 2: Site Name, 3: Theme Link, 4: WordPress
+#. Link.
+#: inc/class-elearning-utils.php:156
+#: inc/customizer/options/footer/class-elearning-customize-footer-bottom-bar-option.php:89
+msgid "Copyright &copy; %1$s %2$s. Powered by %3$s and %4$s."
+msgstr "Copyright &copy; %1$s %2$s. Funciona con %3$s y %4$s."
+
+#: inc/class-breadcrumb-trail.php:792
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: inc/class-breadcrumb-trail.php:766 inc/class-breadcrumb-trail.php:1188
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: inc/class-breadcrumb-trail.php:765 inc/class-breadcrumb-trail.php:829
+#: inc/class-breadcrumb-trail.php:1186
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: inc/class-breadcrumb-trail.php:764 inc/class-breadcrumb-trail.php:791
+#: inc/class-breadcrumb-trail.php:828 inc/class-breadcrumb-trail.php:853
+#: inc/class-breadcrumb-trail.php:1184
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/class-breadcrumb-trail.php:749
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "H"
+
+#: inc/class-breadcrumb-trail.php:733
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: inc/class-breadcrumb-trail.php:717
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "H:i"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: inc/class-breadcrumb-trail.php:300
+msgid "Week %s"
+msgstr "Semana %s"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: inc/class-breadcrumb-trail.php:298
+msgid "Minute %s"
+msgstr "Minuto %s"
+
+#. Translators: %s is the page number.
+#: inc/class-breadcrumb-trail.php:296
+msgid "Comment Page %s"
+msgstr "Página %s de comentarios"
+
+#. Translators: %s is the page number.
+#: inc/class-breadcrumb-trail.php:294
+msgid "Page %s"
+msgstr "Página %s"
+
+#. Translators: %s is the search query.
+#: inc/class-breadcrumb-trail.php:292
+msgid "Search results for: %s"
+msgstr "Resultados de la búsqueda de: %s"
+
+#: inc/class-breadcrumb-trail.php:290
+msgid "Archives"
+msgstr "Archivos"
+
+#: inc/class-breadcrumb-trail.php:289
+msgid "404 Not Found"
+msgstr "404 No encontrado"
+
+#: inc/class-breadcrumb-trail.php:288
+msgid "Home"
+msgstr "Inicio"
+
+#: inc/class-breadcrumb-trail.php:287
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Migas de pan"
+
+#: inc/class-breadcrumb-trail.php:286
+msgid "Browse:"
+msgstr "Explorar:"
+
+#: inc/admin/class-elearning-welcome-notice.php:42
+msgid "Clicking the button will install and activate the ThemeGrill Demo Importer plugin."
+msgstr "Haciendo clic en el botón, se instalará y activará el plugin ThemeGrill Demo Importer."
+
+#: inc/admin/class-elearning-welcome-notice.php:40
+msgid "Get started with eLearning"
+msgstr "Primeros pasos con el eLearning"
+
+#. translators: 1: welcome page link starting html tag, 2: welcome page link
+#. ending html tag.
+#: inc/admin/class-elearning-welcome-notice.php:32
+msgid "Welcome! Thank you for choosing eLearning! To fully take advantage of the best our theme can offer, please make sure you visit our %1$swelcome page%2$s."
+msgstr "¡Bienvenido! ¡Gracias por elegir eLearning! Para aprovechar al máximo lo mejor que nuestro tema puede ofrecer, por favor, asegúrate de visitar nuestra %1$spágina de bienvenida%2$s."
+
+#: inc/admin/class-elearning-welcome-notice.php:25
+msgid "elearning"
+msgstr "eLearning"
+
+#: inc/admin/class-elearning-theme-review-notice.php:133
+msgid "I have a query"
+msgstr "Tengo una consulta"
+
+#: inc/admin/class-elearning-theme-review-notice.php:128
+msgid "Maybe later"
+msgstr "Quizá más tarde"
+
+#: inc/admin/class-elearning-theme-review-notice.php:123
+msgid "I already did!"
+msgstr "¡Ya lo he hecho!"
+
+#: inc/admin/class-elearning-theme-review-notice.php:118
+msgid "Sure, I'd love to!"
+msgstr "Claro, ¡me encantaría!"
+
+#. translators: %s: Smiley icon
+#: inc/admin/class-elearning-theme-review-notice.php:109
+msgid "Basically, it would encourage us to release updates regularly with new features & bug fixes so that you can keep on using the theme without any issues and also to provide free support like we have been doing. %s"
+msgstr "Básicamente, nos animaría a lanzar actualizaciones regularmente con nuevas características y correcciones de fallos para que puedas seguir utilizando el tema sin ningún problema y también para proporcionar soporte gratuito como lo hemos estado haciendo. %s"
+
+#: inc/admin/class-elearning-theme-review-notice.php:103
+msgid "What benefit would you have?"
+msgstr "¿Qué ventajas tendrías?"
+
+#. translators: %1$s: Opening of strong tag, %2$s: Theme's Name, %3$s: Closing
+#. of strong tag
+#: inc/admin/class-elearning-theme-review-notice.php:95
+msgid "Hope you are having a nice experience with %1$s %2$s %3$s theme. Please provide this theme a nice review."
+msgstr "Espero que estés teniendo una buena experiencia con el tema %1$s %2$s %3$s. Por favor, proporciona una buena valoración a este tema."
+
+#. translators: %s: Smile icon
+#: inc/admin/class-elearning-theme-review-notice.php:86
+msgid "The above word is just to draw your attention. %s"
+msgstr "La palabra anterior es solo para llamar tu atención. %s"
+
+#: inc/admin/class-elearning-theme-review-notice.php:78
+msgid "elearning Logo"
+msgstr "Logotipo de eLearning"
+
+#: inc/admin/class-elearning-notice.php:62
+#: inc/admin/class-elearning-notice.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr "Haciendo trampas, ¿eh?"
+
+#: inc/admin/class-elearning-notice.php:58
+#: inc/admin/class-elearning-notice.php:77
+#: inc/admin/class-elearning-theme-review-notice.php:155
+#: inc/admin/class-elearning-theme-review-notice.php:173
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Acción fallida. Por favor, refresca la página e inténtalo de nuevo."
+
+#: inc/admin/class-elearning-dashboard.php:137
+msgid "here &#129066;"
+msgstr "aquí &#129066;"
+
+#. translators: 1: Theme Name, 2: Review Link.
+#: inc/admin/class-elearning-dashboard.php:135
+msgid "Love using %1$s? Help us by leaving a review %2$s"
+msgstr "¿Te encanta usar %1$s? Ayúdanos dejando una reseña %2$s"
+
+#: inc/admin/class-elearning-dashboard.php:129
+msgid "Review"
+msgstr "Reseña"
+
+#: inc/admin/class-elearning-dashboard.php:122
+msgid "Import demo site and start editing as your liking."
+msgstr "Importa el sitio de demostración y comienza a editarlo como te guste."
+
+#: inc/admin/class-elearning-dashboard.php:118
+msgid "Demos."
+msgstr "Demostraciones."
+
+#. translators: 1: Theme Name, 2: Demo Link.
+#: inc/admin/class-elearning-dashboard.php:116
+msgid "You do not need to build your site from scratch, %1$s provides a variety of %2$s"
+msgstr "No es necesario que crees tu sitio desde cero, %1$s proporciona una variedad de %2$s"
+
+#: inc/admin/class-elearning-dashboard.php:110
+msgid "Starter Demos"
+msgstr "Demostraciones de inicio"
+
+#: inc/admin/class-elearning-dashboard.php:93
+msgid "Quick customize settings"
+msgstr "Personalización rápida de los ajustes"
+
+#: inc/admin/class-elearning-dashboard.php:84
+msgid "Support"
+msgstr "Soporte"
+
+#: inc/admin/class-elearning-dashboard.php:83
+msgid "Demos"
+msgstr "Demostraciones"
+
+#: inc/admin/class-elearning-dashboard.php:82
+msgid "Theme Info"
+msgstr "Información del tema"
+
+#: inc/admin/class-elearning-dashboard.php:62
+msgid "Footer Options"
+msgstr "Opciones del pie de página"
+
+#: inc/admin/class-elearning-dashboard.php:57
+msgid "Blog Options"
+msgstr "Opciones del blog"
+
+#: inc/admin/class-elearning-dashboard.php:52
+msgid "Header Options"
+msgstr "Opciones de la cabecera"
+
+#: inc/admin/class-elearning-dashboard.php:47
+msgid "Set Color"
+msgstr "Ajustar el color"
+
+#: inc/admin/class-elearning-dashboard.php:42
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:259
+msgid "Upload Logo"
+msgstr "Subir un logotipo"
+
+#: inc/admin/class-elearning-dashboard.php:27
+#: inc/admin/class-elearning-dashboard.php:28
+msgid "eLearning Options"
+msgstr "Opciones de eLearning"
+
+#: inc/admin/class-elearning-admin.php:78
+msgid "Demo Library"
+msgstr "Biblioteca de demostraciones"
+
+#: inc/admin/class-elearning-admin.php:75
+msgid "Redirecting"
+msgstr "Redirigiendo"
+
+#: inc/admin/class-elearning-admin.php:68
+msgid "Activate ThemeGrill Demo Importer Plugin"
+msgstr "Activar el plugin ThemeGrill Demo Importer"
+
+#: inc/admin/class-elearning-admin.php:65
+msgid "Activating"
+msgstr "Activando"
+
+#: inc/admin/class-elearning-admin.php:55
+msgid "Install ThemeGrill Demo Importer Plugin"
+msgstr "Instalar el plugin ThemeGrill Demo Importer"
+
+#: inc/admin/class-elearning-admin.php:52
+msgid "Processing"
+msgstr "Procesando"
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: functions.php:139
+msgid "Add widgets here."
+msgstr "Añade aquí los widgets."
+
+#: functions.php:128
+msgid "Footer Bottom Bar Right Sidebar"
+msgstr "Barra inferior del pie de página de la barra lateral derecha"
+
+#: functions.php:127
+msgid "Footer Bottom Bar Left Sidebar"
+msgstr "Barra inferior del pie de página de la barra lateral izquierda"
+
+#: functions.php:126
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:194
+msgid "Footer Four"
+msgstr "Pie de página cuatro"
+
+#: functions.php:125
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:193
+msgid "Footer Three"
+msgstr "Pie de página tres"
+
+#: functions.php:124
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:192
+msgid "Footer Two"
+msgstr "Pie de página dos"
+
+#: functions.php:123
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:191
+msgid "Footer One"
+msgstr "Pie de página uno"
+
+#: functions.php:122
+msgid "Header Top Bar Right Sidebar"
+msgstr "Barra superior de la cabecera de la barra lateral derecha"
+
+#: functions.php:121
+msgid "Header Top Bar Left Sidebar"
+msgstr "Barra superior de la cabecera de la barra lateral izquierda"
+
+#: functions.php:120
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:190
+msgid "Sidebar Left"
+msgstr "Barra lateral izquierda"
+
+#: functions.php:119
+#: inc/meta-boxes/class-elearning-meta-box-page-settings.php:189
+msgid "Sidebar Right"
+msgstr "Barra lateral derecha"
+
+#: functions.php:46
+msgid "Primary"
+msgstr "Principal"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s comentario en «%2$s»"
+msgstr[1] "%1$s comentarios en «%2$s»"
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un comentario en «%1$s»"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://masteriyo.com"
+msgstr "https://masteriyo.com"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Masteriyo"
+msgstr "Masteriyo"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://masteriyo.com/themes/elearning"
+msgstr "https://masteriyo.com/themes/elearning"
